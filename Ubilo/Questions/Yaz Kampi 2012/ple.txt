@@ -1,0 +1,27 @@
+Soru Metni
+
+Bir Kurbaga Adam yuzmek icin ozel bir  alet kullanmaktadir. 2 bolmeden olusan tuplerdir bu aletler. Bir bolmede oksijen bir bolmede nitrojen bulunur. Suda kalacagi zamana ve derinlige bagli olarak, Kurbaga Adamimiz degisik miktarlarda oksijen ve nitrojene ihtiyaci wardir. Cantasinda belli miktarlarda oksijen ve nitrojen iceren tupler bulunur. Ayrica her tupun belli bir agirligi vardir. Sizden istenen Kurbaga Adamin gaz ihtiyacini saglayacak ve toplam agirliklari minimum olacak sekilde, Kurbaga Adamin nasil bir tup kombinasyonu secmesi gerektigini bulmaktir.
+
+Girdi :
+
+1. satir: O, N sayilari (O: Ihtiyac olan en az Oksijen miktari, N: Ihtiyac olan en az Nitrojen miktari)  (1 <= O, N <= 79)
+
+2.  satir: M (Cantadaki tup sayisi)  (1 <= M <= 1000)
+
+3 ... M+3. satir: Her tupun o (oksijan miktari), n(nitrojen mikari), w(tupun agirligi) sayilari  (1<= o <= 21 , 1<= n < = 79 , 1<= w <= 800)
+Cikti :
+
+Kosullarin saglandigi minimum agirligi iceren tek satirdan olusur.
+
+Ornek Girdi :
+5 60
+5
+3 36 120
+10 25 129
+5 50 250
+1 45 130
+4 20 119
+
+Ornek Cikti :
+249
+

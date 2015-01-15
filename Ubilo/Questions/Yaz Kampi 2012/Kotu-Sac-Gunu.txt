@@ -1,0 +1,65 @@
+Soru 6: Kotu Sac Gunu [Brian Dean, 2006]
+
+Ali Baba'nin N (1 <= N <= 80,000) adet ineklerinden bazilarinin saclari
+bu gun cok bozuk. Her bir inek kendi sacindan memnun fakat Ali Baba
+inekler tek sira oldugunda her bir inegin siradaki kac inegi gorebildigini
+bilmek istiyor.
+
+Inek i'nin boyu h[i] (1 <= h[i] <= 1,000,000,000) ve sirada doguya donuk
+olarak duruyor. Asagidaki diyagramda saga dogru bakiyor. Inek i kendi
+onundeki boyu kendisinden kisa olan inekleri (inek i+1, inek i+2, ...)
+gorebiliyor.
+
+Asagidaki ornege bakin:
+
+        =
+=       =
+=   -   =           ineklerin yuzu saga donuk -->
+=   =   =
+= - = = =
+= = = = = =
+1 2 3 4 5 6
+
+Cow#1 2, 3 ve 4 numarali inekleri goruyor
+Cow#2 hic bir inegi goremiyor
+Cow#3 sadece 4 numarali inegi gorebiliyor
+Cow#4 hic bir inegi goremiyor
+Cow#5 sadece 6 numarali inegi gorebiliyor
+Cow#6 hic bir inegi goremiyor
+
+c[i], i numarali inegin gorebildigi ineklerin sayisini gostersin. c[i]'den
+c[N]'e kadar olan sayilarin toplamini hesaplayiniz. Yukaridaki ornekte,
+cevap 3 + 0 + 1 + 0 + 1 + 0 = 5.
+
+ZAMAN SINIRI: 0.5 saniye
+
+SORUNUN ISMI: badhair
+
+GIRDI BICIMI:
+
+* Satir 1: Ineklerin sayisi, N.
+
+* Satirlar 2..N+1: Satir i+1, i'inci inegin boyunu gosteriyor.
+
+ORNEK GIRDI (dosya badhair.in):
+
+6
+10
+3
+7
+4
+12
+2
+
+
+GIRDININ ACIKLAMASI:
+
+Sirada alti inek var ve boylari: 10, 3, 7, 4, 12, 2.
+
+CIKTI BICIMI:
+
+* Satir 1: c[1]'den c[N]'e kadar sayilarin toplami.
+
+ORNEK CIKTI (dosya badhair.out):
+
+5

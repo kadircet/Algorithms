@@ -1,0 +1,33 @@
+Programlama dillerinde parantezli olarak verilen ifadelerin doðruluðunu ve derinliðini inceleyeceðiz. Örneðin 8 parantez kullanýlarak yapýlabilecek bazý parantezlemeler::
+()(())()
+(()(()))
+(((())))
+
+Aþaðýdaki parantezlemeler ise yanlýþtýr:
+(()))(()
+())(()
+
+Bir ifadenin uzunluðu kullanýlan açma ve kapama parantezlerinin toplamýdýr. Elbette açma ve kapama parantezlerinin sayýsý eþit olacaktýr. Doðru bir ifadeyi belirten E için Derinlik D(E) ise þu þekilde hesaplanýr.
+
+? 0 eðer E boþ ise
+D(E)= ? D(A)+1 Eðer E = (A), A doðru ifade ise
+? max(D(A),D(B)) Eðer E = AB, A ve B doðru ifade ise
+
+Göreviniz uzunluk (n) ve derinlik(d) verildiðinde n ve d deðerleri için kaç farklý parantezleme olduðunu bulmaktýr.
+
+Girdi Biçimi
+Tek satýrda n ve d verilecektir.( 2 ? n ? 38, 1 ? d ? 19)
+
+Çýktý Biçimi
+n uzunluðunda ve d derinliðinde kaç farklý parantezleme yapýlabileceðini yazdýrýnýz.
+
+Örnek Girdi
+6 2
+
+Örnek Çýktý
+3
+
+6 uzunluðunda ve 2 derinliðinde olan 3 farklý parantezleme:
+(())()
+()(())
+(()())

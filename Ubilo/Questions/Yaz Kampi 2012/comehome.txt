@@ -1,0 +1,27 @@
+Soru Metni
+Inekler aksam yemegi icin herbirine ozel ayrilmis alanlarda otlamaya cikmislardi. Ciftci John'un zili calmasiyla yemekleri son bulan inekler, ahirlarina dogru yurumeye baslarlar. Sizin goreviniz, hangi inegin ahira ilk varacagini hesaplamak. Verilen girdiler sonucunda tam olarak bir inek ahira en erken varan olacaktir.
+Sutleri sagilmadan evvel, tum inekler kendilerine ayrilmis otlaklarda otlamaktadirlar. Bazi otlaklarda inek bulunmamaktadir. Herbir otlak, bir veya daha fazla otlaga belli yollarla baglidir. Bazi otlaklar ise ahir la dogrudan dogruya baglantilidir. Dolayisiyla herbir inegin ahira donusu icin en az bir yol bulunmaktadir ve inekler bu yollarin en kisasinin hangisi oldugunu da bilmektedir. Inekler, baglantili iki otlak arasinda her iki yonde de hareket edebilmekle beraber, tum ineklerin hizlari esittir.
+Otlaklar `a'..`z' ve `A'..`Y' seklinde isimlendirilmistir. Buyuk harflerle isimlendirilen otlaklarin icinde bir inek bulunurken, kucuk harfle isimlendirilen otlaklarda inek bulunmamaktadir. Ahir, `Z' harfi ile isimlendirilmistir ve dogal olarak ahirda inek bulunmamaktadir.
+Girdi
+
+Satir 1:	Otlaklari birbirine baglayan yollarin sayisi P, 1 <= P <= 10000 (ahirla olanlar dahil)
+2..P+1. Satirlar:	Iki harf ve bir tamsayi: aralarinda baglanti bulunan otlaklarin(ya da ahirin) isimleri ve aralarindaki mesafe
+Sutun 1: ilk otlagin(ya da barinagin) adi
+Sutun 2: bir bosluk
+Sutun 3: ikinci otlagin(ya da barinagin) adi
+Sutun 4: bir bosluk
+Sutun 5..: iki otlak arasindaki mesafe, 1 <= x <= 1000
+Ornek Girdi
+5
+A d 6
+B d 3
+C e 9
+d Z 8
+e Z 3
+
+Ornek Cikti
+Cikti, asagidaki iki bilgiyi iceren bir satirdan olusacaktir.
+Ahira ilk varan inegin bulundugu otlagin ismini belirten bir buyuk harf
+Bu inegin almasi gereknen yol
+Ornek Cikti
+B 11

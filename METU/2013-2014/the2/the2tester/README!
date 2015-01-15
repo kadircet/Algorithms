@@ -1,0 +1,18 @@
+direk klasore adi the2.c olucak sekilde kodunuzu koyun, ardindan da checkme.sh
+dosyasini komut satirindan calistirin farkli olan case'ler varsa soyleyecektir.
+
+bazi buyuk inputlar var sonlara koymaya calistim onlari solver.sh'tan girip
+bakabilirsiniz; kodunuz dogru calisiyorsa, ancak efficient degilse cozmesi 
+zaman alabilir eger diger caseler dogruysa fazla kafaya takmayin
+bence. kolay gele
+
+ha bi de eger kendi input caselerini yaratmak isteyen arkadaslar varsa
+./gen | ./sep
+
+yapmalari yeterli olacaktir yeni case'ler olusucak ancak outputlari
+olusmayacaktir.
+
+buradaki input outputlarin dogruluk garantisini veremem hani bana dogru gibi
+gozukuyorlar ama eger gordugunuz yanlislar olursa soyleyin duzeltelim
+
+//kadircet

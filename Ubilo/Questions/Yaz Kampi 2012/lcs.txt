@@ -1,0 +1,11 @@
+LCS(longest common subsequence)
+
+input dosyasinda alt alta iki string verilmistir. bu iki stringin ortak olarak icerdigi
+en uzun ortak dizilim nedir?(herbir string a,...,z ye kadar olan harfleri icerir stringlerin uzunlugu max 1000dir)
+
+input 
+addpan
+dsspkkn
+
+ornek inputta birinci stringin icindeki d , p, n dizilimi ikinci stringde de mevcuttur dolayisiyla cevap 3tur. sectiginiz dizlimin arasinda baska harfler olarabilir.
+
